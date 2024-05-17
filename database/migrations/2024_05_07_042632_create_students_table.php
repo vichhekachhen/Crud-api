@@ -16,6 +16,8 @@ return new class extends Migration
             $table->string('name');
             $table->integer('age');
             $table->string('province');
+            $table->integer('score');
+            $table->string('phone_number');
             $table->softDeletes();
             $table->timestamps();
         });
